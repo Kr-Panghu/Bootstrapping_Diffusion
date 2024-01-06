@@ -14,7 +14,7 @@ Bootstrapping Diffusion Models
 
 ![](./doc/proj_framework.jpg)
 
-### [Paper](https://github.com/Kr-Panghu/Bootstrapping_Diffusion/BootstrapDiffusion.pdf)
+### [Paper](https://github.com/Kr-Panghu/Bootstrapping_Diffusion/blob/main/BootstrapDiffusion.pdf)
 
 ## QuickStart
 
@@ -66,4 +66,4 @@ The code was tested on a RTX4090ti 24GB but should work on other cards with at l
 
 ## Bootstrapping
 
-You may get more information about this in our [paper](https://github.com/Kr-Panghu/Bootstrapping_Diffusion/BootstrapDiffusion.pdf).
+You may get more information about this in our [paper](https://github.com/Kr-Panghu/Bootstrapping_Diffusion/blob/main/BootstrapDiffusion.pdf).
