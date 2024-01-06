@@ -1,7 +1,20 @@
 <h1 align="center">
-Guideline to reproduce the experiments
+Bootstrapping Diffusion Models
 </h1>
-<img src="./proj_framework.jpg" style="zoom:50%;" />
+
+<p align="center">Source code for Bootstrapping Diffusion Models.</p>
+
+<p align="center">Collaborators: 
+<a href="https://github.com/yangyuxiao-sjtu">YuxiaoYang</a> 
+<a href="https://github.com/ZhangTian-Yu">TianyuZhang</a>
+<a href="https://github.com/ParkCorsa">ZiqiHuang</a>
+<a href="https://github.com/shuzechen">ShuzeChen</a>
+<a href="https://github.com/Kr-Panghu">KrCen</a>
+</p>
+
+![](./doc/proj_framework.jpg)
+
+### [Paper](https://github.com/Kr-Panghu/Bootstrapping_Diffusion/BootstrapDiffusion.pdf)
 
 ## QuickStart
 
@@ -20,7 +33,7 @@ Here we trained [improved-diffusion](https://github.com/openai/improved-diffusio
 
 The following figures are some random-picked samples.
 
-![result0](./result0.png)
+![result0](./doc/result0.png)
 
 If you want to make your own sample generated faces from random gaussian noise:
 
@@ -50,3 +63,7 @@ python3 scripts/image_train.py --data_dir datasets $MODEL_FLAGS $DIFFUSION_FLAGS
 > 2. Feel free to edit the parameters.
 
 The code was tested on a RTX4090ti 24GB but should work on other cards with at least 15GB VRAM.
+
+## Bootstrapping
+
+You may get more information about this in our [paper](https://github.com/Kr-Panghu/Bootstrapping_Diffusion/BootstrapDiffusion.pdf).
