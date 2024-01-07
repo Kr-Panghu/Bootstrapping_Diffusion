@@ -14,7 +14,7 @@ Bootstrapping Diffusion Models
 
 ![](./doc/proj_framework.jpg)
 
-### [Paper](https://github.com/Kr-Panghu/Bootstrapping_Diffusion/blob/main/BootstrapDiffusion.pdf)
+### [Paper](https://kr-panghu.github.io/pdfs/CS3964.pdf)
 
 ## QuickStart
 
@@ -25,7 +25,7 @@ cd Improved_Diffusion
 pip install -e ./guided_diffusion
 ~~~
 
-Download pre-trained checkpoints: For checkpoint trained by ourselves, download from [google drive](https://drive.google.com/file/d/1i4dhiyLCR9z7uN4OU6Rwuj8-PfDNM8VU/view?usp=drive_link) and put it into `CLIP-Based-StyleTransfer/models/` for sampling.
+Download pre-trained checkpoints: For checkpoint trained by ourselves, download from [google drive](https://drive.google.com/file/d/1i4dhiyLCR9z7uN4OU6Rwuj8-PfDNM8VU/view?usp=drive_link) and put it into `Improved_Diffusion/models/` for sampling.
 
 ## Generate Samples with Diffusion
 
@@ -38,7 +38,7 @@ The following figures are some random-picked samples.
 If you want to make your own sample generated faces from random gaussian noise:
 
 ~~~
-cd ./CLIP-Based-StyleTransfer/guided_diffusion
+cd ./Improved_Diffusion/guided_diffusion
 
 MODEL_FLAGS="--image_size 64 --num_channels 64 --num_res_blocks 3"
 DIFFUSION_FLAGS="--diffusion_steps 1000 --noise_schedule linear"
@@ -66,4 +66,4 @@ The code was tested on a RTX4090ti 24GB but should work on other cards with at l
 
 ## Bootstrapping
 
-You may get more information about this in our [paper](https://github.com/Kr-Panghu/Bootstrapping_Diffusion/blob/main/BootstrapDiffusion.pdf).
+You may get more information about this in our [paper](https://kr-panghu.github.io/pdfs/CS3964.pdf).
